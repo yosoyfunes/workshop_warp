@@ -65,3 +65,16 @@ atlassian*
 /generated/*
 !/generated/.htaccess
 .DS_Store
+# WARP FRAMEWORK
+!/warp
+!/.warp
+/.env
+/docker-compose-warp.yml
+!/docker-compose-warp-mac.yml
+!/docker-sync.yml
+!/.env.sample
+!/docker-compose-warp.yml.sample
+/.docker-sync
+/.warp/docker/volumes
+/.warp/docker/dumps
+/.warp/docker/config/php/ext-xdebug.ini
